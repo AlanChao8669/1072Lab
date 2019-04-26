@@ -25,8 +25,8 @@ script:
 
 deploy:
   provider: heroku
-  api_key: 6065adfc-83d1-439e-aca9-3db6cdfe3df1
-    secure: $HEROKU_API_KEY
+  api_key: 
+    secure: 6065adfc-83d1-439e-aca9-3db6cdfe3df1
   app: ntou1072lab4
   on:
     repo: AllenChao8669/1072Lab
