@@ -29,7 +29,7 @@ deploy:
     secure: $HEROKU_API_KEY
   app: ntou1072lab4
   on:
-    repo:AllenChao8669/1072Lab
+    repo: AllenChao8669/1072Lab
   #Setting your heroku Procfile here!!!
   run:
     "web: gunicorn app_run:app"
